@@ -1,6 +1,6 @@
 num1=int(input("enter your age: "))
 print(num1 + 5)
-user_age=13
+
 
     
 
