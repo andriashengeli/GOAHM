@@ -1,0 +1,11 @@
+div{
+    color:white;
+    margin: 10px;
+    border-radius: 15px;
+    font-family: cursive;
+    width: 150px;
+    height: 60px;
+    background-color: brown;
+    display: block;
+    text-align: center;
+}
