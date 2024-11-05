@@ -1,0 +1,22 @@
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    border:3 px solid skyblue;
+    background-color: chocolate;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2.5em;
+}
+
+h1{
+    transition: 1.5s;
+}
+
+h1:hover{
+    text-decoration: underline;
+    font-style: italic;
+
+}
