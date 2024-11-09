@@ -1,0 +1,31 @@
+/* დავალება 1: ღილაკის hover ეფექტი
+შექმენი ღილაკი, რომელიც გააქტიურდება hover-ზე და შეიცვლება მისი ზომა, ფერი, ჩრდილი,
+ პოზიცია x ღერძე 200px ით და გაიზრდება თავის ზომაზე ორჯერ.  */
+
+
+
+div{
+    width: 500px;
+    height: 550px;
+    background-color: orange;
+    border-radius: 15px solid red;
+    transition-property: border-radius,withd,height,background-color;
+    transition-duration: 1.0;
+    transition-timing-function: ease-in;
+    transition-delay: 1;
+    align-items: center;
+    cursor:not-allowed;
+    display: flex;
+    transform:rotate(X deg);
+
+    
+}
+
+
+div:hover{
+    width: 1000px;
+    width: 800px;
+    background-color: red;
+    border:10px solid green
+
+}
