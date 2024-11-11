@@ -1,0 +1,30 @@
+
+
+
+div{
+ 
+    width: 100px;
+    height: 50px;
+    background-color: green;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    animation-name: box;
+    animation-duration: 3s;
+}
+
+
+@keyframes box{
+    0% {
+        transform:rotate(100deg)
+
+    }
+
+    10%{
+        transform:translateX(800px)
+    }
+}
+
+
