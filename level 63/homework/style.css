@@ -1,0 +1,32 @@
+div{
+     width: 120px;
+    height: 100px; 
+    background-color: red;
+    font-family: cursive;
+    transition: 8s;
+}
+    
+   
+div:hover{
+    animation: box 3s;
+     
+}
+@keyframes box  {
+    0%{
+        width: 800px;
+        height: 110px;
+        
+        
+    }
+
+    100%{
+        width: 800px;
+        height: 110px;
+    }
+}
+
+
+div:hover {
+    animation:
+     
+}
