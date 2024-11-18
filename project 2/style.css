@@ -1,0 +1,26 @@
+p{
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+.different-div{
+    color: orange;
+    font-size: 50px;
+    text-align: center;
+}
+
+.join-button{
+    background-color: orange;
+    color: white;
+    border: solid orange;
+    border-radius: 7px;
+    font-size: 30px;
+    border-left-width: 65px;
+    border-right-width: 65px;
+    position: relative;
+    bottom: 50px;
+    left: -100px;
+}
