@@ -1,0 +1,50 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-shadow: none;
+}
+
+main{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    text-align: ceter;
+    
+}
+
+header h1{
+    width: 300px;
+    height: 300px;
+    color: red;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 10px;
+    font-family: cursive;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top:0;
+    left:600px;
+    
+}
+
+
+@media screen and (min-width:1500px)     {
+    header{
+        background-color: orange;
+    }
+
+
+    header h1{
+        letter-spacing: 10px;
+        font-size:50px;
+        color: red;
+        font-family: fantasy;
+        }
+}
