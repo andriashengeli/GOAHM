@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.dd{
+    color: black;
+    background-color: red;
+    width: 1500px;
+    height: 200px;
+    font-family: cursive;
+    font-size: 50px;
+    
+}
+
+
+nav{
+    position: absolute;
+    top:0px;
+    left:1400px;
+    color: black;
+    font-family: cursive;
+    background-color: red;
+}
+
+
+img{
+    width: 1000px;
+    height: 500px;
+    position:relative;
+    top:200px;
+}
+
+p{
+    position:relative;
+    top:200px;
+}
+
+hr{
+    position: relative;
+    top: 200px;
+}
+
