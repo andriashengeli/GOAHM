@@ -25,3 +25,20 @@ i,b,u{
     display: flex;
     justify-content: center;
 }
+
+
+
+@media screen and (min-width: 1200px) {
+  .service {
+    width: 30%;
+    margin: 20px 0;
+  }
+
+  .content h2 {
+    font-size: 26px;
+  }
+
+  footer {
+    font-size: 16px;
+  }
+}
