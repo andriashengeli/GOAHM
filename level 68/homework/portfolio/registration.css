@@ -14,7 +14,6 @@
 
 body{
     background-image: url(image.png);
-    
     display: flex;
     align-items: center;
     justify-content: center;
