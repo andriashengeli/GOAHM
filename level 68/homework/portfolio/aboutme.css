@@ -42,3 +42,10 @@ i,b,u{
     font-size: 16px;
   }
 }
+
+
+p{
+  color: blue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+}
