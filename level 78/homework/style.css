@@ -30,5 +30,8 @@ div{
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    object-fit: cover;
+    border: 5px solid #ccc;
+    border-radius: 10px; /* Rounded corners */
+   
 }
