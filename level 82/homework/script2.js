@@ -1,2 +1,3 @@
-let name="andria"
-let uppercase =text.toUpperCase()
+let goa="andria"
+let uppercase = (goa.toUpperCase())
+console.log(uppercase)
