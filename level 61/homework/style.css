@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.section {
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border: 2px solid black;
+    transition: all 0.3s ease-in-out;
+}
+
+.section-1 {
+    background-color: lightblue;
+}
+
+.section-2 {
+    background-color: lightgreen;
+}
+
+.section-3 {
+    background-color: lightcoral;
+}
+
+.section-4 {
+    background-color: lightgoldenrodyellow;
+}
+
+
+.section:hover {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
