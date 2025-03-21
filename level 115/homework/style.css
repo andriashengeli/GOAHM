@@ -1,0 +1,19 @@
+@media (max-width: 600px) {
+    .martialarts {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .martialarts {
+        margin-bottom: 10px;
+    }
+  }
+
+
+button{
+    color:blue;
+    background-color: red;
+    font-family: cursive;
+    border: 0px solid black;
+    border-radius: 5px;
+}
