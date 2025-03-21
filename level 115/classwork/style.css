@@ -1,0 +1,17 @@
+button{
+    color: red;
+    font-family: cursive;
+    background-color: blue;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
