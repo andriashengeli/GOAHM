@@ -3,5 +3,5 @@ let promise = new Promise((resolve, reject) => {
 });
 
 promise.catch(error => {
-  console.error(error);
+  console.log(error);
 });
