@@ -16,3 +16,4 @@ Promise.race([
     person2,
     person3
 ]).then(res => console.log(res))
+.catch(err => console.error(err));
