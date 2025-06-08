@@ -1,0 +1,10 @@
+[
+    {
+        "weather": "sunny",
+        "temperature": 30,
+        "rainChance": 10,
+        "windSpeed": 5,
+        "location": "tbilisi"
+    }
+]
+
