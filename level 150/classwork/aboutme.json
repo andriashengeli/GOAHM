@@ -1,0 +1,12 @@
+[
+    {
+        "name": "andria",
+        "lastname": "shengelia",
+        "age": 15,
+        "hobbies": ["reading", "gaming", "coding"],
+        "favoriteColor": "blue",
+        "isStudent": true
+
+    }
+]
+
