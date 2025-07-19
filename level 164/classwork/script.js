@@ -1,51 +1,19 @@
-Swal.fire({
-    title: 'Welcome to Our Website!',
-    text: 'We are glad to have you here. Enjoy your stay!',
-    icon: 'success',
-    confirmButtonText: 'Thank you!',
-    confirmButtonColor: '#3085d6',
-    draggable: true,
-    position: "center",
-    timer: 14000,
-    timerProgressBar: true,
-    showCancelButton: true,
-    cancelButtonText: 'Close❌',
-})
+let name = document.getElementById("name");
+let email = document.getElementById("email");
+let age = document.getElementById("age");
+let submit = document.getElementById("submit");
 
+function saveToStorage() {
+  if (age.value < 18) {
+    alert("you cannot register, because you are under 18 sorry");
+    return;
+  }
 
-Swal.fire({
-    title: 'Important Update',
-    text: 'Please note that our terms of service have changed. Click here to read the updated terms.',
-    icon: "warning",
-    confirmButtonText: 'Read Terms',
-    confirmButtonColor: '#d33',
-    showCancelButton: true,
-    cancelButtonText: 'Maybe Later ⏳⏳',
-    cancelButtonColor: '#aaa',
-    position: "top-end"
+  localStorage.setItem("name", name.value);
+  localStorage.setItem("email", email.value);
+  localStorage.setItem("age", age.value);
 
+  alert("saved to local storage successfully");
+}
 
-})
-
-
-
-Swal.fire({
-    title: "please choose an fruit you like",
-    input: 'select',
-    inputOptions: {
-        fruits: {
-            apple: 'Apple',
-            banana: 'Banana',
-            cherry: 'Cherry',
-            date: 'Date',
-            elderberry: 'Elderberry'
-        },
-        vagatable: {
-            carrot: 'Carrot',
-            broccoli: 'Broccoli',
-            spinach: 'Spinach',
-            potato: 'Potato',
-            cucumber: 'Cucumber'
-        }
-    }
-})
+submit.addEventListener("click", saveToStorage);
